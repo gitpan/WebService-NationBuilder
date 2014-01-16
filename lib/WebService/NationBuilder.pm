@@ -8,8 +8,8 @@ with 'WebService::NationBuilder::HTTP';
 
 use Carp qw(croak);
 
-has access_token => ( is => 'ro'                                 );
-has subdomain    => ( is => 'ro'                                 );
+has access_token => ( is => 'rw'                                 );
+has subdomain    => ( is => 'rw'                                 );
 has domain       => ( is => 'ro', default => 'nationbuilder.com' );
 has version      => ( is => 'ro', default => 'v1'                );
 
@@ -113,7 +113,7 @@ WebService::NationBuilder - NationBuilder API bindings
 
 =head1 VERSION
 
-version 0.0101
+version 0.0102
 
 =head1 SYNOPSIS
 
