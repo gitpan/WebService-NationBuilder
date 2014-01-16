@@ -162,7 +162,7 @@ WebService::NationBuilder::HTTP
 
 =head1 VERSION
 
-version 0.0100
+version 0.0101
 
 =head1 AUTHOR
 
