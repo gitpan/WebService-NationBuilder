@@ -27,6 +27,7 @@ my %WriteMakefileArgs = (
     "LWP::UserAgent" => 0,
     "List::Util" => "1.35",
     "Log::Any" => 0,
+    "Log::Any::Adapter" => "0.11",
     "Moo" => 0,
     "Moo::Role" => 0,
     "Try::Tiny" => 0,
@@ -34,11 +35,11 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
-    "Log::Any::Adapter" => 0,
+    "Log::Any::Adapter" => "0.11",
     "Log::Dispatch" => 0,
     "Test::Most" => 0
   },
-  "VERSION" => "0.0102",
+  "VERSION" => "0.0103",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -52,7 +53,7 @@ my %FallbackPrereqs = (
   "LWP::UserAgent" => 0,
   "List::Util" => "1.35",
   "Log::Any" => 0,
-  "Log::Any::Adapter" => 0,
+  "Log::Any::Adapter" => "0.11",
   "Log::Dispatch" => 0,
   "Moo" => 0,
   "Moo::Role" => 0,

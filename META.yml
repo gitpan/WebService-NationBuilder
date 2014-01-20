@@ -3,7 +3,7 @@ abstract: 'NationBuilder API bindings'
 author:
   - 'Ali Anari <ali@anari.me>'
 build_requires:
-  Log::Any::Adapter: 0
+  Log::Any::Adapter: 0.11
   Log::Dispatch: 0
   Test::Most: 0
 configure_requires:
@@ -22,9 +22,10 @@ requires:
   LWP::UserAgent: 0
   List::Util: 1.35
   Log::Any: 0
+  Log::Any::Adapter: 0.11
   Moo: 0
   Moo::Role: 0
   Try::Tiny: 0
   strict: 0
   warnings: 0
-version: 0.0102
+version: 0.0103
