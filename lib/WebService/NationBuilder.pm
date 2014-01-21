@@ -113,7 +113,7 @@ WebService::NationBuilder - NationBuilder API bindings
 
 =head1 VERSION
 
-version 0.0103
+version 0.0104
 
 =head1 SYNOPSIS
 

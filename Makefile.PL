@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "List::Util" => "1.35",
     "Log::Any" => 0,
     "Log::Any::Adapter" => "0.11",
-    "Moo" => 0,
+    "Moo" => "1.004002",
     "Moo::Role" => 0,
     "Try::Tiny" => 0,
     "strict" => 0,
@@ -39,7 +39,7 @@ my %WriteMakefileArgs = (
     "Log::Dispatch" => 0,
     "Test::Most" => 0
   },
-  "VERSION" => "0.0103",
+  "VERSION" => "0.0104",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -55,7 +55,7 @@ my %FallbackPrereqs = (
   "Log::Any" => 0,
   "Log::Any::Adapter" => "0.11",
   "Log::Dispatch" => 0,
-  "Moo" => 0,
+  "Moo" => "1.004002",
   "Moo::Role" => 0,
   "Test::Most" => 0,
   "Try::Tiny" => 0,
