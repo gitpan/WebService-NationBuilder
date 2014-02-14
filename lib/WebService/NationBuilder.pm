@@ -113,7 +113,7 @@ WebService::NationBuilder - NationBuilder API bindings
 
 =head1 VERSION
 
-version 0.0105
+version 0.0106
 
 =head1 SYNOPSIS
 
@@ -129,7 +129,7 @@ version 0.0105
 =head1 DESCRIPTION
 
 This module provides bindings for the
-L<NationBuilder|https://www.nationbuilder.com> API.
+L<NationBuilder|http://www.nationbuilder.com> API.
 
 =head1 METHODS
 
@@ -165,7 +165,7 @@ The NationBuilder subdomain (slug) for your nation.
 
 I<Optional>E<10> E<8>
 
-The NationBuilder top-level domain to make API calls against.  Defaults to L<nationbuilder.com|nationbuilder.com>.
+The NationBuilder top-level domain to make API calls against.  Defaults to L<nationbuilder.com|http://nationbuilder.com>.
 
 =item - C<version>
 
