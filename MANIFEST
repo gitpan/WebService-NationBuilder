@@ -5,7 +5,6 @@ META.yml
 Makefile.PL
 README
 README.md
-config.sh
 dist.ini
 lib/WebService/NationBuilder.pm
 lib/WebService/NationBuilder/HTTP.pm

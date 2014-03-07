@@ -1,12 +1,10 @@
 package WebService::NationBuilder;
-
-use strict;
-use warnings;
 use Moo;
-
 with 'WebService::NationBuilder::HTTP';
 
 use Carp qw(croak);
+
+our $VERSION = '0.0107'; # VERSION
 
 has access_token => ( is => 'rw'                                 );
 has subdomain    => ( is => 'rw'                                 );
@@ -113,7 +111,7 @@ WebService::NationBuilder - NationBuilder API bindings
 
 =head1 VERSION
 
-version 0.0106
+version 0.0107
 
 =head1 SYNOPSIS
 
